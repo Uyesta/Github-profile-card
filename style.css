@@ -1,0 +1,121 @@
+* {
+    text-decoration: none;
+    color: inherit;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #218380;
+    text-align: center;
+    font-family: Helvetica !important;
+    display: flex;
+    min-height: 100vh;
+    align-items: center;
+}
+
+.center {
+    width: 300px;
+    margin: auto;
+}
+
+.center .box {
+    width: 300px;
+    border-radius: 2rem;
+}
+
+.box-header {
+    background-color: #D81159;
+    min-height: 100px;
+    width: 300px;
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.box-header img {
+    border-radius: 50%;
+    width: 100px;
+    transform: translatey(50px);
+    border: solid 2px black;
+}
+
+.box-main {
+    background-color: aliceblue;
+    min-height: 200px;
+    width: 300px;
+}
+
+.box-main .user-name {
+    padding-top: 45px;
+    margin: 0 auto;
+}
+
+.box-main .user-name h1 {
+    color: black;
+    text-align: center;
+}
+
+.box-main .user-userName {
+    padding-top: 5px;
+    text-align: center;
+    color: #a0a0a0;
+}
+
+.box-main .user-bio {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-main .user-company {
+    padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FBB13C;
+    min-height: 100px;
+    width: 300px;
+    border-bottom-left-radius: 2rem;
+    border-bottom-right-radius: 2rem;
+}
+
+.box-footer .stats {
+    min-width: 80px;
+    text-align: center;
+    border-top: 2px solid #D81159;
+    margin-right: 5px;
+}
+
+.box-footer .stats p {
+    padding-top: 20px;
+    color: black;
+}
+
+.box-footer .stats:last-child {
+    margin-right: 0px;
+}
+
+.center input {
+    height: 30px;
+    border-radius: 2rem;
+    border: none;
+    text-align: center;
+}
+
+.center button{
+    min-width: 105px;
+    margin-top: 5px;
+    height: 30px;
+    border: none;
+    border-radius: 2rem;
+}
+
+::placeholder {
+    text-align: center;
+}

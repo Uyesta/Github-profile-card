@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="center">
+        <form id="form" style="display: block;">
+            <input type="text" id="text" placeholder="UserName"><br>
+            <button id="btn">Submit</button>
+        </form>
+        <div class="box" style="display: none;">
+            <div class="box-header">
+                <img id="avatar_url" src="">
+            </div>
+            <div class="box-main">
+                <div class="user-name">
+                    <h1 id="user_name"> </h1>
+                </div>
+                <div class="user-userName">
+                    @<span id="user_userName"> </span>
+                </div>
+                <div class="user-bio">
+                    <p id="user_bio"> </p>
+                </div>
+            </div>
+            <div class="box-footer">
+                <div class="user-followers stats">
+                    <p id="followers"> </p>
+                    Followers
+                </div>
+                <div class="user-following stats">
+                    <p id="following"> </p>
+                    Following
+                </div>
+                <div class="user-repositories stats">
+                    <p id="repositories"> </p>
+                    Repositories
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
