@@ -8,7 +8,7 @@
 ## 👀 Demo
 
 <h3 align="center">
-    <a href="https://uyesta.github.io/github-profile-card/">
+    <a href="https://uyesta.github.io/Github-profile-card/">
     Go Live</a>
 </h3>
 
